@@ -3,8 +3,9 @@
 #### ``` /models.py  ``` this file represent the tables in the database
 have two classes ``` VLAN ``` and ``` Subnet ```
 
-sql> describe VLAN
 ```
+sql> describe VLAN
+
 +------------+------------------+------+-----+---------+----------------+
 |  Field     | Type             | Null | Key | Default | Extra          |
 +------------+------------------+------+-----+---------+----------------+
@@ -14,6 +15,7 @@ sql> describe VLAN
 +------------+------------------+------+-----+---------+----------------+
 ```
 
+```
 sql> describe Subnets
     
 +--------------------+------------------+------+-----+---------+----------------+
@@ -27,7 +29,7 @@ sql> describe Subnets
 | reserved_ips_count | int              | YES  |     | NULL    |                |
 | vlan_id            | char(255)        | YES  |     | NULL    |                |
 +--------------------+------------------+------+-----+---------+----------------+
-
+```
 
 #### ``` /database.py  ``` this file create a database and represent operations with database
 
