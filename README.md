@@ -5,7 +5,8 @@
 ## Requirements
 
 -	[Python](https://www.python.org/downloads/) >= 3.8.x
--	[Flask] ``` pip install flask ``` >= 1.1.x
+-	Flask ``` pip install flask ``` >= 1.1.x
+-   SQLAlchemy ``` pip install SQLAlchemy ``` 
 
 ## How To Run The App API
 there are three methods to run this API
