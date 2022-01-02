@@ -1,5 +1,5 @@
 # IP Address Management API
- - documentations (`docs/`),
+ - documentations (`docs/`)
  - Requests Example (`docs/request`) 
 
 ## Requirements
@@ -11,9 +11,8 @@
 there are three methods to run this API
 - Local
 ```
-cd repo
-clone repo: git clone https://github.com/
-cd repo
+clone repo: git clone git@github.com:mhost39/ip-address-managment.git
+cd ip-address-managment
 install dependencies: pip install -r requirements.txt
 python app.py
 ```
@@ -24,12 +23,13 @@ docker run -p 5000:5000 flask_app
 ```
 - DockerHub
 ```
-
+docker pull mhost/ip-address-management:latest
 ```
 
 ## Run tests
 ``` python -m unittest ```
+
 there are github action to run tests nightly and when push
 
 
-# please browse issues
+### please browse issues
