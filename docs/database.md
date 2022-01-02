@@ -1,6 +1,6 @@
 ## decryption of database
 
-#### ``` /models.py  ``` this file represent the tables in the database
+#### ``` /models.py ``` this file represent the tables in the database
 have two classes ``` VLAN ``` and ``` Subnet ```
 
 ```
@@ -31,7 +31,7 @@ sql> describe Subnets
 +--------------------+------------------+------+-----+---------+----------------+
 ```
 
-#### ``` /database.py  ``` this file create a database and represent operations with database
+#### ``` /database.py ``` this file create a database and represent operations with database
 
 have a ``` DataBase ``` classe
 
