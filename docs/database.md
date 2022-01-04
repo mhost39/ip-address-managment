@@ -9,7 +9,7 @@ sql> describe VLAN
 +------------+------------------+------+-----+---------+----------------+
 |  Field     | Type             | Null | Key | Default | Extra          |
 +------------+------------------+------+-----+---------+----------------+
-| id         | int     unsigned | NO   | PRI | NULL    | auto_increment |
+| id         | int              | NO   | PRI | NULL    | auto_increment |
 | name       | char(255)        | YES  |     | NULL    |                |
 | descrition | char(255)        | YES  |     | NULL    |                |
 +------------+------------------+------+-----+---------+----------------+
@@ -21,13 +21,13 @@ sql> describe Subnets
 +--------------------+------------------+------+-----+---------+----------------+
 | Field              | Type             | Null | Key | Default | Extra          |
 +--------------------+------------------+------+-----+---------+----------------+
-| id                 | int     unsigned | NO   | PRI | NULL    | auto_increment |
-| ip                 | int     unsigned | NO   |     |         |                |
-| mask               | int     unsigned | NO   |     | 0       |                |
+| id                 | int              | NO   | PRI | NULL    | auto_increment |
+| ip                 | int              | NO   |     |         |                |
+| mask               | int              | NO   |     | 0       |                |
 | name               | char(255)        | YES  |     | NULL    |                |
 | descrition         | char(255)        | YES  |     | NULL    |                |
 | reserved_ips_count | int              | YES  |     | NULL    |                |
-| vlan_id            | char(255)        | YES  |     | NULL    |                |
+| vlan_id            | int              | YES  | Fk  | NULL    |                |
 +--------------------+------------------+------+-----+---------+----------------+
 ```
 
